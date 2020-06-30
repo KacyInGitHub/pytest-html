@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name="pytest-html",
+    name="pytest-html-lee",
     use_scm_version=True,
-    description="pytest plugin for generating HTML reports",
+    description="optimized pytest plugin for generating HTML reports",
     long_description=open("README.rst").read(),
-    author="Dave Hunt",
-    author_email="dhunt@mozilla.com",
-    url="https://github.com/pytest-dev/pytest-html",
+    author="Kacy Lee",
+    author_email="kacylining@163.com",
+    url="https://github.com/KacyInGitHub/pytest-html.git",
     packages=["pytest_html"],
     package_data={"pytest_html": ["resources/*"]},
     entry_points={"pytest11": ["html = pytest_html.plugin"]},
