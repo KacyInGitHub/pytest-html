@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(
     name="pytest-html-lee",
-    version="1.0.0",
-    use_scm_version=True,
+    version="0.0.1",
+    use_scm_version=False,
     description="optimized pytest plugin for generating HTML reports",
     long_description=open("README.rst").read(),
     author="Kacy Lee",
